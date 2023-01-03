@@ -1,23 +1,25 @@
 .process {
+  padding-bottom: 67px;
 }
-
 .process-header {
-  text-align: center;
   margin-bottom: 68px;
 }
 
 .process-header h2 {
   font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-size: 36px;
+  font-style: normal;
   font-weight: 400;
-  margin: 0px 0px 34px 0px;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+  color: #212121;
 }
 .line {
   width: 64px;
   height: 2px;
-  border: 1px;
-  background-color: #e72424;
+  border-top: 1px solid #e72424;
   margin: 0px auto 34px;
 }
 
@@ -27,12 +29,15 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  line-height: 19px;
   color: #86878b;
+  text-align: center;
 }
 .process-wrap {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 67px;
+  margin: 0 -15px;
+  flex-wrap: wrap;
 }
 .item-process {
   width: 350px;
@@ -41,7 +46,7 @@
 .item-process_icon {
   height: 70px;
   width: 70px;
-  border-radius: 50px;
+  border-radius: 50%;
   margin: 0px auto 30px;
   border: 1px solid #e72424;
   display: flex;
@@ -55,12 +60,15 @@
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
+  line-height: 27px;
   margin-bottom: 16px;
 }
-.item-process_decription {
+
+.item-process_description p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  text-align: center;
+  line-height: 19px;
   color: #000000;
+  text-align: center;
 }

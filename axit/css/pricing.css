@@ -45,6 +45,10 @@
   margin: 0 15px;
 }
 
+.pricing-card li:last-child {
+  margin-bottom: 0;
+}
+
 .pricing-card_title {
   background-color: #333333;
   text-align: center;

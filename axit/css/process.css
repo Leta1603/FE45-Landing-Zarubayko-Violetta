@@ -1,38 +1,6 @@
 .process {
   padding-bottom: 67px;
 }
-.process-header {
-  margin-bottom: 68px;
-}
-
-.process-header h2 {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 34px;
-  color: #212121;
-}
-.line {
-  width: 64px;
-  height: 2px;
-  border-top: 1px solid #e72424;
-  margin: 0px auto 34px;
-}
-
-.process__text {
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  color: #86878b;
-  text-align: center;
-}
 .process-wrap {
   display: flex;
   justify-content: space-between;

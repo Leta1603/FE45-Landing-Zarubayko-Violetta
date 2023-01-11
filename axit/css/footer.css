@@ -1,0 +1,31 @@
+.footer {
+  background-color: #000;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: #fff;
+}
+.footer-list {
+  width: 317px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto 18px;
+}
+
+.footer-list__item {
+  cursor: pointer;
+}
+
+.footer-list__item a {
+  font-size: 23px;
+  color: #86878b;
+}
+
+.copyright {
+  text-align: center;
+}
+.copyright p {
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}

@@ -12,10 +12,6 @@
   margin: 0 auto 18px;
 }
 
-.footer-list__item {
-  cursor: pointer;
-}
-
 .footer-list__item a {
   font-size: 23px;
   color: #86878b;

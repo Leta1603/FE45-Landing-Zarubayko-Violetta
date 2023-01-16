@@ -5,18 +5,13 @@
   padding-bottom: 19px;
   position: sticky;
   top: 0;
-  z-index: 4;
+  z-index: 100;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 -15px;
-}
-
-.logo {
-  margin: 0 15px;
 }
 
 #axit {
@@ -39,7 +34,6 @@
 .menu__item {
   margin-left: 48px;
   transition: 0.2s;
-  /* cursor: pointer; */
 }
 
 .menu__item:first-child {

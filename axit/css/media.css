@@ -33,12 +33,8 @@
   display: flex;
   flex-basis: 684px;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin: 0 15px;
-}
-
-.media-list__item {
-  cursor: pointer;
 }
 
 .media-list__item a {

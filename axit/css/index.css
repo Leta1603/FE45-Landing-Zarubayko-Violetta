@@ -1,11 +1,13 @@
 @import url("./cdn.css");
 @import url("./header.css");
+@import url("./promo.css");
 @import url("./media.css");
 @import url("./main.css");
 @import url("./process.css");
 @import url("./pricing.css");
 @import url("./customers.css");
 @import url("./axure.css");
+@import url("./contact.css");
 @import url("./footer.css");
 
 * {
@@ -65,4 +67,33 @@ section {
   line-height: 19px;
   text-align: center;
   color: #86878b;
+}
+
+input,
+label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+label {
+  color: #bdbdbd;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+textarea {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  border: none;
+  outline: none;
+  resize: none;
+  border-bottom: 1px solid #bdbdbd;
 }

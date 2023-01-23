@@ -17,28 +17,26 @@
 }
 .media-inform__title {
   font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.35;
   color: #333333;
   margin-bottom: 14px;
 }
 .media-inform__desc p {
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.357;
   font-weight: 400;
   color: #86878b;
 }
 .media-list {
-  /* width: 684px; */
+  width: 684px;
   display: flex;
-  flex-basis: 684px;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
   margin: 0 15px;
 }
 
 .media-list__item a {
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #86878b;
 }
 .fa-brands,

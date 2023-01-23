@@ -2,6 +2,7 @@
 @import url("./header.css");
 @import url("./promo.css");
 @import url("./media.css");
+@import url("./features.css");
 @import url("./main.css");
 @import url("./process.css");
 @import url("./pricing.css");
@@ -9,6 +10,7 @@
 @import url("./axure.css");
 @import url("./contact.css");
 @import url("./footer.css");
+@import url("./adaptiv.css");
 
 * {
   margin: 0;
@@ -35,36 +37,42 @@ section {
 }
 
 .title {
-  margin-bottom: 62px;
+  /* margin-bottom: 62px; */
+  margin-bottom: 3.875em;
 }
 
 .title h2 {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
+  /* font-size: 36px; */
+  font-size: 2.25rem;
+  /* line-height: 42px; */
+  line-height: 1.512;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 34px;
+  /* margin-bottom: 34px; */
+  /* margin-bottom: 2.125em; */
+  margin-bottom: 0.944em;
   color: #212121;
 }
 
 .title h2::after {
   content: "";
   width: 64px;
-  height: 2px;
-  background-color: #e72424;
+  height: 0px;
+  border: 1px solid #e72424;
   display: block;
-  margin: 34px auto 0;
+  /* margin: 34px auto 0; */
+  margin: 0.944em auto 0;
 }
 
 .title__text p {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875;
   text-align: center;
   color: #86878b;
 }
@@ -73,8 +81,10 @@ input,
 label {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  /* font-size: 14px; */
+  font-size: 0.875rem;
+  /* line-height: 19px; */
+  line-height: 1.357;
 }
 
 label {
@@ -90,8 +100,10 @@ input {
 textarea {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  /* font-size: 14px; */
+  font-size: 0.875rem;
+  /* line-height: 19px; */
+  line-height: 1.357;
   border: none;
   outline: none;
   resize: none;

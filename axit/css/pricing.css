@@ -14,7 +14,7 @@
   margin: 0 -15px;
 }
 .pricing-card {
-  width: 340px;
+  width: 30%;
   margin: 0 15px;
   transition: 0.3s;
 }
@@ -34,8 +34,8 @@
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 50px;
+  font-size: 1.25rem;
+  line-height: 2.5;
   color: #ffffff;
   margin-bottom: 2px;
 }
@@ -45,8 +45,8 @@
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
-  line-height: 100px;
+  font-size: 2.1875rem;
+  line-height: 2.857;
   color: #ffffff;
   text-align: center;
   margin-bottom: 2px;
@@ -57,8 +57,8 @@
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 50px;
+  font-size: 0.875rem;
+  line-height: 3.5714;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
   margin-bottom: 4px;
@@ -68,8 +68,8 @@
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 40px;
+  font-size: 0.875rem;
+  line-height: 2.857;
   color: #86878b;
   background-color: #ffffff;
   text-align: center;

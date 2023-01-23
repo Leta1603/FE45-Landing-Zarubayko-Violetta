@@ -1,5 +1,5 @@
 .process {
-  padding-bottom: 67px;
+  padding-bottom: 70px;
 }
 .process-wrap {
   display: flex;
@@ -8,7 +8,7 @@
   flex-wrap: wrap;
 }
 .item-process {
-  width: 350px;
+  width: 30%;
   margin: 0 15px;
 }
 
@@ -27,17 +27,17 @@
   text-align: center;
   color: #212121;
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
   font-weight: 700;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.35;
   margin-bottom: 16px;
 }
 
 .item-process_description p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.357;
   color: #000000;
   text-align: center;
 }

@@ -5,7 +5,7 @@
   color: #fff;
 }
 .footer-list {
-  width: 317px;
+  width: 315px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -13,7 +13,7 @@
 }
 
 .footer-list__item a {
-  font-size: 23px;
+  font-size: 1.4375rem;
   color: #86878b;
 }
 

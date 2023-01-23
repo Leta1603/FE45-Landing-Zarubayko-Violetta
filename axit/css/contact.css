@@ -7,10 +7,11 @@
 .contact-form-wrap {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 65px;
+  margin: 0 -15px 65px;
 }
 .contact-form-left {
   width: 40%;
+  margin: 0 15px;
 }
 .contact-form-item {
   margin-bottom: 35px;
@@ -41,11 +42,16 @@
 
 .contact-form-right {
   width: 40%;
+  margin: 0 15px;
+}
+
+.right {
+  height: 100%;
 }
 
 .contact-textarea {
   width: 100%;
-  height: 198px;
+  height: 92%;
   padding: 5px 2px;
 }
 
@@ -57,8 +63,8 @@
   display: block;
   font-family: "Open Sans";
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.9375rem;
+  line-height: 1.33;
   padding: 11px 31px;
   color: #fff;
   background-color: #ec7979;

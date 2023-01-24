@@ -6,6 +6,11 @@
   .container {
     max-width: 970px;
   }
+
+  .contact-form-item:hover {
+    transform: scale(1);
+    border-bottom: 1px solid #333333;
+  }
 }
 
 /* Max-width 1140px */
@@ -13,6 +18,19 @@
 @media (max-width: 1140px) {
   .item-process:not(:last-child) {
     margin: 0 15px 40px;
+  }
+}
+
+/* Max-width 1108px */
+@media (max-width: 1108px) {
+  .meadia-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .media-inform {
+    text-align: center;
+    margin-bottom: 5px;
   }
 }
 
@@ -52,24 +70,40 @@
 
 /* Max-width 767px */
 @media (max-width: 767px) {
-  html {
-    font-size: 13px;
-  }
   .container {
     width: 100%;
   }
 
+  .promo {
+    padding: 40px 0;
+  }
+
+  .promo-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .promo-text {
+    max-width: 90%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .promo-text-desc p {
+    max-width: 100%;
+  }
+
   .form {
-    width: 280px;
+    width: 370px;
   }
 
   .promo-text__btn {
     max-width: 35%;
-    border: 1px solid #ffffff;
-    text-align: center;
-    line-height: 2.8;
-    cursor: pointer;
-    transition: 0.2s;
+    margin: 0 auto;
+  }
+
+  .media-list {
+    width: 80%;
   }
 
   .media-list__item a {
@@ -89,25 +123,25 @@
     width: 50%;
     margin: 0 15px 30px;
   }
+
+  .axure-btn {
+    max-width: 30%;
+  }
 }
 
 /* Max-width 635px */
 @media (max-width: 635px) {
   html {
-    font-size: 12px;
-  }
-  .promo-text {
-    margin: 0 15px;
-    max-width: 46.2%;
-  }
-
-  .promo {
-    padding: 60px;
+    font-size: 13px;
   }
 
   .promo-text {
-    max-width: 70%;
+    max-width: 90%;
     margin: 0 15px 30px;
+  }
+
+  .form {
+    width: 320px;
   }
 
   .features-info {
@@ -123,6 +157,17 @@
   }
 }
 
+/* Max-width 560px */
+@media (max-width: 560px) {
+  .burger-menu {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
 /* Max-width 420px */
 @media (max-width: 420px) {
   .menu__item {
@@ -135,7 +180,7 @@
   }
 
   .promo {
-    padding: 15px;
+    padding: 20px 0;
   }
 
   .promo-text {
@@ -145,6 +190,15 @@
 
   .form {
     width: 250px;
+  }
+
+  .features {
+    padding: 90px 0;
+  }
+
+  .features-wrap {
+    flex-direction: column-reverse;
+    text-align: center;
   }
 
   .tabs {
@@ -161,6 +215,7 @@
   .features-info {
     width: 90%;
     height: 70%;
+    margin-bottom: 25px;
   }
 
   .features__title {
@@ -168,13 +223,26 @@
   }
 
   .features-desc {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
+  }
+
+  .features-info-btn {
+    margin: 0 auto;
+  }
+
+  .process {
+    padding: 70px 0;
   }
 
   .pricing-card {
     width: 80%;
     margin: 0 15px 35px;
   }
+
+  .axure-btn {
+    max-width: 60%;
+  }
+
   .customers {
     padding-bottom: 80px;
   }
@@ -201,5 +269,10 @@
   }
   .footer-list__item a {
     font-size: 1.25rem;
+  }
+
+  .contact-form-item:hover {
+    transform: scale(1.1);
+    border-bottom: none;
   }
 }

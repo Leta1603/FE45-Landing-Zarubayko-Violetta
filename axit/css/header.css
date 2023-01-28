@@ -44,18 +44,15 @@
 }
 
 .menu {
+  width: 490px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0 15px;
 }
 
 .menu__item {
-  margin-right: 48px;
   transition: 0.2s;
-}
-
-.menu__item:last-child {
-  margin-right: 0px;
 }
 
 .menu__item a {

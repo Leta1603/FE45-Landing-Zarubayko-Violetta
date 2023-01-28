@@ -112,7 +112,7 @@
   line-height: 1.35;
   color: #333333;
   text-align: center;
-  margin-bottom: 2.25em;
+  margin-bottom: 2.3em;
 }
 
 .form-title span {
@@ -121,8 +121,11 @@
 }
 
 .promo-form-item {
-  margin-bottom: 15px;
   transition: 0.2s;
+}
+
+.promo-form-item:not(:last-child) {
+  margin-bottom: 15px;
 }
 
 .promo-form__label {

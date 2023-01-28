@@ -6,12 +6,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 -15px;
 }
 
 .tabs {
-  width: 9.4%;
-  margin: 0 15px;
+  width: 9.5%;
 }
 
 .tabs_item {
@@ -35,7 +33,7 @@
   margin-bottom: 10px;
 }
 
-.tabs_item:active {
+.active {
   background-color: #ec7979;
   border: 1px solid #ec7979;
 }
@@ -44,10 +42,26 @@
   transform: scale(1.1);
 }
 
+.features-content {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
 .features-info {
-  width: 48.89%;
+  width: 60%;
   margin: 0 15px;
 }
+
+#tab_info_2 {
+  display: none;
+}
+
+#tab_info_3 {
+  display: none;
+}
+
 .features__title {
   font-weight: 700;
   font-size: 1.25rem;
@@ -98,8 +112,8 @@
 }
 
 .features-img {
-  width: 27.3%;
-  height: 70%;
+  width: 320px;
+  height: 253px;
   border: 1px solid #fff;
   overflow: hidden;
   margin: 0 15px;

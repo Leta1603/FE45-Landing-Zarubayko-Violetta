@@ -36,6 +36,7 @@
   line-height: 1.167;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 0.944em;
   color: #fff;
 }
 
@@ -44,7 +45,7 @@
   width: 64px;
   border: 1px solid #fff;
   display: block;
-  margin: 34px auto;
+  margin: 0.944em auto 0;
 }
 
 .axure-text p {
